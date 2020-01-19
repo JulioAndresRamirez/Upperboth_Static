@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="117px" height="97px" viewBox="0 0 117 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>WEBDESIGN Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-494.000000, -1207.000000)" fill-rule="nonzero">
+            <g id="WEBDESIGN-Copy" transform="translate(472.000000, 1207.000000)">
+                <g id="WebLogo-Copy-2" transform="translate(32.000000, 0.000000)">
+                    <g id="WebRed" transform="translate(5.000000, 5.000000)">
+                        <rect id="Rectangle" stroke="#FF004C" stroke-width="6" x="3" y="3.79999924" width="81" height="81"></rect>
+                        <circle id="Oval" fill="#FF004C" cx="15" cy="16" r="4"></circle>
+                        <circle id="Oval-Copy" fill="#FF004C" cx="28" cy="16" r="4"></circle>
+                        <circle id="Oval-Copy-2" fill="#FF004C" cx="41" cy="16" r="4"></circle>
+                    </g>
+                    <g id="WebBlue">
+                        <rect id="Rectangle" stroke="#005DF5" stroke-width="6" x="3" y="3.79999924" width="81" height="81"></rect>
+                        <circle id="Oval" fill="#005DF5" cx="19" cy="20" r="4"></circle>
+                        <circle id="Oval-Copy" fill="#005DF5" cx="32" cy="20" r="4"></circle>
+                        <circle id="Oval-Copy-2" fill="#005DF5" cx="45" cy="20" r="4"></circle>
+                    </g>
+                </g>
+                <g id="Escuadra" transform="translate(0.000000, 46.000000)" stroke="#FFFFFF" stroke-width="4">
+                    <polygon id="Triangle" transform="translate(36.736470, 36.367812) rotate(-135.000000) translate(-36.736470, -36.367812) " points="36.6633561 19.1994897 71 53.5361336 2.47293901 53.3899067"></polygon>
+                    <polygon id="Triangle" fill="#FFFFFF" transform="translate(37.341286, 35.972628) rotate(-135.000000) translate(-37.341286, -35.972628) " points="37.3172508 30.3043057 48.604816 41.6409497 26.0777551 41.5926711"></polygon>
+                </g>
+                <circle id="Oval" stroke="#FF004C" stroke-width="4" fill="#FF004C" cx="65" cy="47" r="14"></circle>
+                <rect id="Rectangle" fill="#FFFFFF" x="63" y="44" width="43" height="25"></rect>
+                <g id="REGLA" transform="translate(79.000000, 75.000000)" stroke="#FFFFFF">
+                    <rect id="Rectangle" stroke-width="4" x="2" y="2" width="52" height="11"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="7.5" y="3.5" width="3" height="3"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="17.5" y="3.5" width="3" height="3"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="26.5" y="3.5" width="3" height="3"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="45.5" y="3.5" width="3" height="3"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#FFFFFF" x="36.5" y="3.5" width="3" height="3"></rect>
+                </g>
+                <polyline id="Path-2" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" points="102 33 110.5 19 119 33 127.5 19 136 33"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

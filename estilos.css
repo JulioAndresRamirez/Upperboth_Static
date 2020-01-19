@@ -1,0 +1,298 @@
+body{
+background-color: black;
+}
+
+.header{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.centro{
+display: flex;
+flex-flow: column  nowrap;
+justify-content: space-between;
+align-content: space-between;
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+   
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family:Roboto;
+  }
+
+  .header button{
+    padding: 15px 30px;
+    background-color: #ff004c;
+    color: white;
+    border: none;
+    font-family: 'Roboto Condensed', bold;
+  }
+
+  .header .menulogo img{
+    width: 64px;
+    height: 64px;
+    
+  }
+
+  .menulogo{ 
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+
+.contenedor{/*CONTENEDOR*/
+  cursor: pointer;
+  position: relative;
+  transition: all 1s ease;
+  transform-style: preserve-3d;
+
+  display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.contenedor div > img{
+  width: 100%;
+}
+
+  .front, .back{
+  position: absolute;
+  backface-visibility: hidden;
+  }
+  .front{
+    transform: rotateX(180deg)
+    
+  }
+
+  .contenedor:hover{/*CONTENEDOR*/
+    transform: rotateX(180deg)
+  }
+
+.upper img{
+  width: 90%;
+  display:block;
+  margin: auto;
+}
+  .hero h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size:110px;
+    line-height: 100px;
+    color: white;
+    margin-top: 5%;
+  }
+
+  .prueba{
+    height: 1000px;
+  }
+
+
+.serv h2{
+  font-family: 'Roboto Condensed', bold;
+  color: white;
+  font-size: 80px;
+}
+
+.serv p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.servicio h2{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 20px;
+} 
+
+.serv img{
+  margin-top: 7%;
+}
+
+.serv p{
+  margin-top: 3%;
+}
+
+.imgg{
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicio p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 14px;
+  
+}
+
+.servicios{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 50px;
+  padding-bottom: 140px;
+}
+
+.servicio img{
+  width: 120px;
+}
+.servicio .diseño{
+width: 150px;
+}
+
+.servicio .soporte{
+  width: 140px;
+}
+
+.proyectos_seccion h2{
+    font-family: 'Roboto Condensed', bold;
+    color: white;
+    font-size: 80px;
+  }
+  
+  .proyectos_seccion img{
+    margin-top: 7%;
+  }
+
+
+.proyectos{
+  color: white;
+  position: relative;
+}
+
+.proyecto{
+  width: 100%;  
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+margin-bottom: 150px;
+}
+
+.img_proyecto{
+  width: 65%;
+  height: 450px;
+}
+
+.img_proyecto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.proyecto .info_proyecto h2{
+  font-family: 'Roboto Condensed', bold;
+  font-size: 54px;
+}
+
+.proyecto .info_proyecto h5{
+  font-family: 'Roboto Condensed', bold;
+  font-size: 16px;
+  color:rgb(95, 95, 95) ;
+}
+
+.proyecto .info_proyecto p{
+  display: inline-block;
+  width: 30ch;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  
+}
+
+.proyecto .info_proyecto:nth-child(even){
+  text-align: right;
+}
+
+.proyecto .leermas1{
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: white;
+  font-size:15px; 
+  color: black;
+  border: none;
+  font-family: 'Roboto';
+  margin-top: 51px;
+}
+ 
+.contacto{
+    padding: 50px 0px;
+
+}
+.contacto h2{
+    text-align: center;
+}
+
+.contener_contacto{
+display: flex;
+flex-flow: row nowrap;
+justify-content:space-between;
+align-content: center;
+}
+.borde{
+  border-radius: 0px;
+}
+
+.formulario{
+    width: 45%;
+}
+
+.btn{
+  color: white;
+  background: #ff004c;
+  border: #ff004c;
+}
+
+.btn:hover{
+  color: #ff004c;
+  background: white;
+  border: white;
+}
+
+.mapa{
+    width: 52%;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+
+  .upper img{
+  width: 80%;
+}
+
+  .hero h1{
+    font-size:80px;  
+  }
+
+}
